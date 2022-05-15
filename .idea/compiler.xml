@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="singleton" />
+        <module name="facade" />
+        <module name="Strategy" />
+        <module name="creational" />
+        <module name="structural" />
+        <module name="behavioral" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="facade" target="11" />
+      <module name="singleton" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
