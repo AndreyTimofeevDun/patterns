@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        StrategyRunner runner = new StrategyRunner();
+        StrategyImpl runner = new StrategyImpl();
         int a = 10;
         int b = 12;
 

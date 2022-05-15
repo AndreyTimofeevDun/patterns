@@ -1,4 +1,4 @@
-public class StrategyRunner {
+public class StrategyImpl {
 
     private Strategy strategy;
 
