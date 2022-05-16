@@ -11,6 +11,10 @@
 
     <artifactId>creational</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>singleton</module>
+        <module>factory</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

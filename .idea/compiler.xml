@@ -9,11 +9,9 @@
         <module name="singleton" />
         <module name="facade" />
         <module name="Strategy" />
+        <module name="decorator" />
         <module name="adapter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="singleton" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
