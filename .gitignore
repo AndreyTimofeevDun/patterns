@@ -29,3 +29,4 @@ add following lines in gitignore, from all undesirable files
 /nbdist/
 /.nb-gradle/
 /creational/factory/target/
+/creational/prototype/target/
