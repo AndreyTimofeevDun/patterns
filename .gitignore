@@ -30,3 +30,10 @@ add following lines in gitignore, from all undesirable files
 /.nb-gradle/
 /creational/factory/target/
 /creational/prototype/target/
+/structural/flyweight/target/
+/behavioral/chain-of-responsibility/target/
+/behavioral/strategy/target/
+/creational/singleton/target/
+/structural/adapter/target/
+/structural/decorator/target/
+/structural/facade/target/

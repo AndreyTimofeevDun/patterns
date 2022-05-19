@@ -13,13 +13,15 @@
         <module name="Strategy" />
         <module name="strategy" />
         <module name="prototype" />
+        <module name="flyweight" />
+        <module name="chain-of-responsibility" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="factory" options="--add-modules java.base" />
-      <module name="prototype" options="--add-modules java.base" />
+      <module name="prototype" options="" />
     </option>
   </component>
 </project>

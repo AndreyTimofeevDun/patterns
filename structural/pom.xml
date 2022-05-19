@@ -15,6 +15,7 @@
         <module>adapter</module>
         <module>facade</module>
         <module>decorator</module>
+        <module>flyweight</module>
     </modules>
 
     <properties>
