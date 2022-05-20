@@ -39,3 +39,4 @@ add following lines in gitignore, from all undesirable files
 /structural/facade/target/
 /structural/proxy/target/
 /behavioral/iterator/target/
+/creational/abstract-factory/target/
