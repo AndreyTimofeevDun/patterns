@@ -37,3 +37,4 @@ add following lines in gitignore, from all undesirable files
 /structural/adapter/target/
 /structural/decorator/target/
 /structural/facade/target/
+/structural/proxy/target/
