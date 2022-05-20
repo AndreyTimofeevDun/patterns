@@ -18,6 +18,7 @@
         <module name="iterator" />
         <module name="Strategy" />
         <module name="strategy" />
+        <module name="delegation" />
         <module name="chain-of-responsibility" />
       </profile>
     </annotationProcessing>

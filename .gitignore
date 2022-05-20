@@ -41,3 +41,4 @@ add following lines in gitignore, from all undesirable files
 /behavioral/iterator/target/
 /creational/abstract-factory/target/
 /behavioral/observer/target/
+/behavioral/delegation/target/
