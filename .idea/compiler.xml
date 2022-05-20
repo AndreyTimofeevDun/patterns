@@ -9,6 +9,7 @@
         <module name="singleton" />
         <module name="proxy" />
         <module name="decorator" />
+        <module name="iterator" />
         <module name="adapter" />
         <module name="facade" />
         <module name="Strategy" />

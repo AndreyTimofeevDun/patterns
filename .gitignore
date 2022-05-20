@@ -38,3 +38,4 @@ add following lines in gitignore, from all undesirable files
 /structural/decorator/target/
 /structural/facade/target/
 /structural/proxy/target/
+/behavioral/iterator/target/
