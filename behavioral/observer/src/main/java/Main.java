@@ -1,14 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Editor editor = new Editor();
-        editor.events.subscribe("open", new LogOpenListener("/path/to/log/file.txt"));
-        editor.events.subscribe("save", new EmailNotificationListener("admin@example.com"));
 
-        try {
-            editor.openFile("test.txt");
-            editor.saveFile();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Subscriber s11 = new Sub1();
+        Subscriber s12 = new Sub1();
+        Subscriber s21 = new Sub2();
+
+        List<String> list = new ArrayList<>();
+        list.add("petr");
+
+        Publisher publisher = new Publisher(list);
+
+        publisher.subscribe("petr", s21);
+        publisher.subscribe("petr", s11);
+        publisher.subscribe("petr", s12);
+
+        publisher.notify("Semen");
+
+
     }
 }
